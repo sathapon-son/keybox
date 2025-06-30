@@ -1,3 +1,5 @@
 certutil -hashfile keybox.xml SHA256
 certutil -hashfile module.prop SHA256
 certutil -hashfile customize.sh SHA256
+
+certutil -hashfile customize.sh MD5
